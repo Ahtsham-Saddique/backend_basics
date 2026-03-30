@@ -62,3 +62,15 @@ console.log(fruits2.find((val)=>
 
 console.log(fruits2[0].charAt(2));
 
+// push method
+
+fruits2.push(function ne(){
+
+});
+
+fruits2.forEach((val)=>
+{
+    console.log(val);
+})
+
+console.log(fruits2);
