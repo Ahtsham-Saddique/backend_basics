@@ -46,10 +46,19 @@ else{
 );
 
 console.log(filtered_arr);
+
+// indexOf function
 let fruits2 = [ "Banana", {Apple : 3}, ["orange","kenno"],
 function veg(){
 
 },"Banana"]
 console.log(fruits2.indexOf("Banana",2));
 
+// charAt method in js
+console.log(fruits2.find((val)=>
+{
+   return  val==="Banana";
+}));
+
+console.log(fruits2[0].charAt(2));
 
