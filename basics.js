@@ -31,3 +31,17 @@ let mapped_Fruits = fruits.map((val,index,arr)=>
     return arr[val]=val+"mapped";
 });
 console.log(mapped_Fruits);
+
+
+let filtered_arr=fruits.filter((val)=>
+{if(fruits.indexOf(val)>=2)
+{
+    return true;
+}
+else{
+    return  false;
+}
+}
+);
+
+console.log(filtered_arr);
