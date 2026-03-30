@@ -74,3 +74,21 @@ fruits2.forEach((val)=>
 })
 
 console.log(fruits2);
+
+// pop delete form last
+
+fruits2.pop();
+
+
+console.log(fruits2);
+// delete form start
+
+fruits2.shift();
+
+console.log(fruits2);
+
+// add at start
+fruits2.unshift("Banana");
+
+
+console.log(fruits2);
