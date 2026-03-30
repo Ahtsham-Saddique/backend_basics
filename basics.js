@@ -90,5 +90,14 @@ console.log(fruits2);
 // add at start
 fruits2.unshift("Banana");
 
+// add delete uisng splice form any index
+console.log(fruits2);
+
+fruits2.splice(0,0,"Apple");
+
+
+console.log(fruits2);
+
+fruits2.splice(1,1);
 
 console.log(fruits2);
