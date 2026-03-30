@@ -1,8 +1,9 @@
 // Array
 
-let fruits = [ "Banana", {Apple : 3}, ["orange","kenno"],function veg(){
+let fruits = [ "Banana", {Apple : 3}, ["orange","kenno"],
+function veg(){
 
-}]
+},"Banana"]
 
 console.log(fruits[1].Apple+"\n");
 console.log(fruits[2][1]+"\n");
@@ -32,7 +33,7 @@ let mapped_Fruits = fruits.map((val,index,arr)=>
 });
 console.log(mapped_Fruits);
 
-
+// filter_method
 let filtered_arr=fruits.filter((val)=>
 {if(fruits.indexOf(val)>=2)
 {
@@ -45,3 +46,10 @@ else{
 );
 
 console.log(filtered_arr);
+let fruits2 = [ "Banana", {Apple : 3}, ["orange","kenno"],
+function veg(){
+
+},"Banana"]
+console.log(fruits2.indexOf("Banana",2));
+
+
